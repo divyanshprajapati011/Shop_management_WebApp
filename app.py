@@ -11,10 +11,11 @@ if 'total_price' not in st.session_state:
 # Database Connection
 def get_db_connection():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="",
-        database="pythondb"
+        host =  "sql12.freesqldatabase.com",
+        user =  "sql12779229",
+        password = "ZRXgDP3VQY",
+        database = "sql12779229",
+        port =  3306
     )
 
 # ===================== ADMIN PANEL =======================
